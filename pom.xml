@@ -30,6 +30,11 @@
 		</plugins>
 	</build>
 
+	<ciManagement>
+		<system>Jenkins</system>
+		<url>http://jenkins.imagej.net/job/pal-optimization/</url>
+	</ciManagement>
+
 	<scm>
 		<connection>scm:git:git://github.com/fiji/pal-optimization</connection>
 		<developerConnection>scm:git:git@github.com:fiji/pal-optimization</developerConnection>
