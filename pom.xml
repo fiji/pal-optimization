@@ -18,6 +18,42 @@
 	<name>jars/pal-optimization.jar</name>
 	<description></description>
 
+	<developers>
+		<developer>
+			<id>ctrueden</id>
+			<name>Curtis Rueden</name>
+			<url>http://imagej.net/User:Rueden</url>
+			<roles>
+				<role>maintainer</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>hinerm</id>
+			<name>Mark Hiner</name>
+			<url>http://imagej.net/User:Hinerm</url>
+			<roles>
+				<role>maintainer</role>
+			</roles>
+		</developer>
+	</developers>
+	<contributors>
+		<contributor>
+			<name>Alexei Drummond</name>
+			<roles><role>founder</role></roles>
+		</contributor>
+		<contributor>
+			<name>Korbinian Strimmer</name>
+			<roles><role>founder</role></roles>
+		</contributor>
+		<contributor>
+			<name>Johannes Schindelin</name>
+			<url>http://imagej.net/User:Schindelin</url>
+			<properties><id>dscho</id></properties>
+			<roles><role>founder</role></roles>
+		</contributor>
+		<contributor><name>Matthew Goode</name></contributor>
+	</contributors>
+
 	<scm>
 		<connection>scm:git:git://github.com/fiji/pal-optimization</connection>
 		<developerConnection>scm:git:git@github.com:fiji/pal-optimization</developerConnection>
