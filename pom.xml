@@ -90,7 +90,7 @@
 	<properties>
 		<package-name>pal.math</package-name>
 		<license.licenseName>lgpl_v3</license.licenseName>
-		<license.copyrightOwners>${fiji.authors}</license.copyrightOwners>
+		<license.copyrightOwners>Fiji developers.</license.copyrightOwners>
 		<license.projectName>Fiji distribution of ImageJ for the life sciences.</license.projectName>
 	</properties>
 
