@@ -83,8 +83,8 @@
 		<url>https://github.com/fiji/pal-optimization/issues</url>
 	</issueManagement>
 	<ciManagement>
-		<system>Jenkins</system>
-		<url>http://jenkins.imagej.net/job/pal-optimization/</url>
+		<system>Travis CI</system>
+		<url>https://travis-ci.org/fiji/pal-optimization</url>
 	</ciManagement>
 
 	<properties>
