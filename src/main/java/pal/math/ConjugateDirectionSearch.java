@@ -52,9 +52,9 @@ public class ConjugateDirectionSearch extends MultivariateMinimum
 
 	/**
 	 *  controls the printed output from the routine        
-	 *  (0 -> no output, 1 -> print only starting and final values,            
-	 *   2 -> detailed map of the minimization process,         
-	 *   3 -> print also eigenvalues and vectors of the       
+	 *  (0 = no output, 1 = print only starting and final values,            
+	 *   2 = detailed map of the minimization process,         
+	 *   3 = print also eigenvalues and vectors of the       
 	 *   search directions), the default value is 0                                
 	 */
 	public int prin = 0;

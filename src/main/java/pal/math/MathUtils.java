@@ -26,11 +26,13 @@ public class MathUtils {
 	/**
 	 * A random number generator that is initialized with the clock when this
 	 * class is loaded into the JVM. Use this for all random numbers.
-	 * @note This method or getting random numbers in not thread-safe. Since
-	 * MersenneTwisterFast is currently (as of 9/01) not synchronized using
-	 * this function may cause concurrency issues. Use the static get methods of the
-	 * MersenneTwisterFast class for access to a single instance of the class, that
-	 * has synchronization.
+	 * <p>
+	 * Note: This method or getting random numbers in not thread-safe. Since
+	 * MersenneTwisterFast is currently (as of 9/01) not synchronized using this
+	 * function may cause concurrency issues. Use the static get methods of the
+	 * MersenneTwisterFast class for access to a single instance of the class,
+	 * that has synchronization.
+	 * </p>
 	 */
 	public static MersenneTwisterFast random = new MersenneTwisterFast();
 

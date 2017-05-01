@@ -19,8 +19,7 @@ public interface UnivariateFunction
 	/**
 	 * compute function value
 	 *
-	 * @param function argument
-	 * 
+	 * @param argument function argument
 	 * @return function value
 	 */
 	double evaluate(double argument);

@@ -27,7 +27,7 @@ import java.io.Serializable;
  * This is a Java version of the C-program for MT19937: Integer version.
  * next(32) generates one pseudorandom unsigned integer (32bit)
  * which is uniformly distributed among 0 to 2^32-1  for each
- * call.  next(int bits) >>>'s by (32-bits) to get a value ranging
+ * call.  next(int bits) &gt;&gt;&gt;'s by (32-bits) to get a value ranging
  * between 0 and 2^bits-1 long inclusive; hope that's correct.
  * setSeed(seed) set initial values to the working area
  * of 624 words. For setSeed(seed), seed is any 32-bit integer
@@ -719,7 +719,7 @@ public class MersenneTwisterFast implements Serializable
 
 
 		/** Returns an integer drawn uniformly from 0 to n-1.  Suffice it to say,
-	n must be > 0, or an IllegalArgumentException is raised. */
+	n must be &gt; 0, or an IllegalArgumentException is raised. */
 		public int nextInt(int n)
 	{
 	if (n<=0)

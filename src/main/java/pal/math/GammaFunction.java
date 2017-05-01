@@ -26,11 +26,9 @@ public class GammaFunction
 	// Gamma function
 
 	/**
-	 * log Gamma function: ln(gamma(alpha)) for alpha>0, accurate to 10 decimal places
+	 * log Gamma function: ln(gamma(alpha)) for alpha&gt;0, accurate to 10 decimal places
 	 *
 	 * @param alpha argument
-	 * 
-	 * @param function value
 	 */
 	public static double lnGamma(double alpha)
 	{
@@ -95,7 +93,7 @@ public class GammaFunction
 	 *
 	 * @param a parameter
 	 * @param x argument
-	 * @param double lnGammaA precomputed lnGamma(a) 
+	 * @param lnGammaA precomputed lnGamma(a) 
 	 *
 	 * @return function value
 	 */

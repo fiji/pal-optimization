@@ -39,8 +39,8 @@ public class DifferentialEvolution extends MultivariateMinimum
 		
 	/**
 	 * variable controlling print out, default value = 0
-	 * (0 -> no output, 1 -> print final value, 
-	 * 2 -> detailed map of optimization process)
+	 * (0 = no output, 1 = print final value, 
+	 * 2 = detailed map of optimization process)
 	 */
 	public int prin = 0; 
 
