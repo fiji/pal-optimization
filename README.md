@@ -1,3 +1,5 @@
+[![](https://github.com/fiji/pal-optimization/actions/workflows/build-main.yml/badge.svg)](https://github.com/fiji/pal-optimization/actions/workflows/build-main.yml)
+
 A partial fork of the PAL project.
 
 See:
